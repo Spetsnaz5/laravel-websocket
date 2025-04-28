@@ -9,12 +9,12 @@ php artisan install:broadcasting
 php artisan reverb:start
 ```
 
-### 測試介面
+### 測試介面 Console 顯示
 ```
 http://127.0.0.1/public/websocket
 ```
 
-### 修改JS
+### 修改JS 
 ```
 WebSocket('ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}');
 ```
