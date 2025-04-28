@@ -16,7 +16,7 @@ ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}
 
 ### 測試介面
 ```
-http://127.0.0.1/laravel_websocket/public/websocket
+http://127.0.0.1/public/websocket
 ```
 
 ### 訂閱 
