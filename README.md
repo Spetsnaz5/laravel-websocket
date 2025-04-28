@@ -9,14 +9,14 @@ php artisan install:broadcasting
 php artisan reverb:start
 ```
 
-### URL範例
-```
-ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}
-```
-
 ### 測試介面
 ```
 http://127.0.0.1/public/websocket
+```
+
+### URL範例
+```
+ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}
 ```
 
 ### 訂閱 
