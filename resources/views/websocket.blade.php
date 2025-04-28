@@ -22,11 +22,6 @@
         <div class="col-6">
         </div>
     </div>
-    <div class="row">
-        <div class="col-8">
-            <textarea class="form-control" id="chat" rows="100"></textarea>
-        </div>
-    </div>
 
     <script>
         // 設定 WebSocket 連線
@@ -52,12 +47,6 @@
         ws.onmessage = function(event) {
             const data = JSON.parse(event.data);
             console.log('📩 收到訊息:', data);
-
-            if (typeof data.data !== 'undefined' && typeof data.data.message !== 'undefined') {
-                $('#chat').val(
-                        $('#chat').val() + `\n ${data.data.message}`
-                    );
-            }
         };
 
         // 連線關閉
