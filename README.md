@@ -14,6 +14,11 @@ php artisan reverb:start
 http://127.0.0.1/public/websocket
 ```
 
+### 修改JS
+```
+WebSocket('ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}');
+```
+
 ### URL範例
 ```
 ws://127.0.0.1:{REVERB_SERVER_PORT}/app/{REVERB_APP_KEY}
